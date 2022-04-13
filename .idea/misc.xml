@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="UMLDiagramComponent">
+    <diagram name="appli">
+      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="fr.badiiix.appli.Application" />
+      <command command-class="de.frag.umlplugin.uml.command.ConnectClassesUsedCommand" />
+      <command command-class="de.frag.umlplugin.uml.command.ConnectClassesExtendedCommand" />
+      <command command-class="de.frag.umlplugin.uml.command.ConnectClassesCommand" />
+      <command command-class="de.frag.umlplugin.uml.command.ConnectClassesFieldCommand" />
+      <command command-class="de.frag.umlplugin.uml.command.AddUsedClassesCommand" psi-class="fr.badiiix.appli.Application" />
+      <command command-class="de.frag.umlplugin.uml.command.AddUsedClassesCommand" psi-class="fr.badiiix.appli.game.Game" />
+      <command command-class="de.frag.umlplugin.uml.command.AddUsingClassesCommand" psi-class="fr.badiiix.appli.game.Player" />
+      <compartment-visibility>
+        <show-fields class="fr.badiiix.appli.Application" />
+        <show-fields class="fr.badiiix.appli.game.Board" />
+        <show-fields class="fr.badiiix.appli.utils.Console" />
+        <show-fields class="fr.badiiix.appli.utils.CardComparator" />
+        <show-fields class="fr.badiiix.appli.game.Card" />
+        <show-fields class="fr.badiiix.appli.game.Player" />
+        <show-fields class="fr.badiiix.appli.game.Game" />
+      </compartment-visibility>
+    </diagram>
+  </component>
+</project>
